@@ -1,0 +1,18 @@
+module net {
+  module i2cat {
+    module vortex {
+      module cafe {
+        module hello_world {
+	      struct Data {
+			long id; //@Key
+			long a;
+			string b;
+		  };
+		  #pragma keylist Data id
+		};
+      };
+    };
+  };
+};
+
+
